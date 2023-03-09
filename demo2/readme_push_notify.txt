@@ -1,0 +1,7 @@
+- go to : https://console.firebase.google.com/
+- register app with android package name
+- download google-services.json and save in ./android/app
+- yarn add @react-native-firebase/app @react-native-firebase/messaging
+- update build.gradle in ./android (plugin and dependencies)
+- update build.gradle in ./android/app (dependencies)
+- 

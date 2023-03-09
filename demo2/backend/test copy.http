@@ -1,0 +1,8 @@
+### login
+GET http://localhost:7777/login?username=admin&password=1234 HTTP/1.1
+
+### register
+POST http://localhost:7777/register HTTP/1.1
+Content-Type: application/json
+
+{"username":"lek", "password":"6666"}
